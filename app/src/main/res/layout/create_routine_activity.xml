@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_routine_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matt.runningplanneranddiaryv2.createRoutineAct"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="@string/target_distance_tv"
+                android:id="@+id/target_distance_TV_CR"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:hint="@string/hint_distance_str"
+                android:inputType="numberDecimal"
+                android:id="@+id/target_distance_ET_CR"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="@string/target_time_tv"
+                android:id="@+id/target_time_TV_CR"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:hint="@string/_00_00_minutes_hint_str"
+                android:inputType="numberDecimal"
+                android:id="@+id/target_time_ET_CR"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="@string/incline_0_10_tv"
+                android:id="@+id/incline_TV_CR"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:hint="@string/incline_hint_str"
+                android:inputType="number"
+                android:id="@+id/incline_ET_CR"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_run_btn_text"
+            android:id="@+id/create_routine_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/someTV"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:id="@android:id/list">
+
+    </ListView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createRoutineActivityFinishButton"
+        android:text="Finsh">
+
+    </Button>
+
+</LinearLayout>

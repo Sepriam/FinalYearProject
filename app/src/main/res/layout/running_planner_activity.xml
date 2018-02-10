@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/past__runs_activity"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.matt.runningplanneranddiaryv2.Past_Runs"
+android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_new_routine_btn"
+        android:layout_gravity="center_horizontal"
+        android:text="Create new routine"
+        android:onClick="to_create_routine_act"/>
+
+
+    <ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:id="@android:id/list" />
+
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/return_btn_routine_planner"
+    android:layout_gravity="center_horizontal"
+        android:text="finish"
+        android:onClick="FinishRunningPlannerAct"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RunningPlannerAndDiaryV2</string>
+    <string name="Just_Run_Btn_Txt">Just Run</string>
+    <string name="past_runs_btn_txt">Past runs</string>
+    <string name="run_planner_btn_txt">Running Planner</string>
+    <string name="Save_Just_Run_Btn_txt">Save Run</string>
+    <string name="distance_tv_text">Distance (km) :</string>
+    <string name="time_taken_tv_txt">Time Taken (min) :</string>
+    <string name="incline_tv_txt">Incline (0-10) :</string>
+    <string name="add_run_btn_text">Add Run</string>
+    <string name="incline_0_10_tv">Incline (0-10):</string>
+    <string name="target_time_tv">Target Time:</string>
+    <string name="target_distance_tv">Target Distance:</string>
+    <string name="hint_distance_str">0.00 KM</string>
+    <string name="_00_00_minutes_hint_str">00.00 Minutes</string>
+    <string name="incline_hint_str">0 - 10</string>
+    <string name="jr_manual_tv">Manual</string>
+    <string name="jr_automatic_tv">Automatic</string>
+    <string name="to_accelerometer_JR_FRAG2">To accelerometer</string>
+    <string name="to_gps_JR_FRAG2">To GPS (Future enhancement)</string>
+</resources>
